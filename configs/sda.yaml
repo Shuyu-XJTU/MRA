@@ -1,0 +1,73 @@
+image_root: 'images/SDA'
+image_root_test: 'images/CUHK-PEDES/imgs'
+test_file: 'data/finetune/cuhk_test.json'
+val_file: 'data/finetune/cuhk_val.json'
+
+train_file_regions:  ['data/sda/sda_0_5000.json', 'data/sda/sda_5000_10000.json',
+                      'data/sda/sda_10000_15000.json', 'data/sda/sda_15000_20000.json',
+                      'data/sda/sda_20000_25000.json', 'data/sda/sda_25000_30000.json',
+                      'data/sda/sda_30000_35000.json', 'data/sda/sda_35000_40000.json',
+                      'data/sda/sda_40000_45000.json', 'data/sda/sda_45000_50000.json',
+                      'data/sda/sda_50000_55000.json', 'data/sda/sda_55000_60000.json',
+                      'data/sda/sda_60000_64000.json', 'data/sda/sda_64000_70000.json',]
+
+# SDA total images: 1,217,750
+# filtering ratio: 10.63%
+
+region: 0.8
+
+
+## Vision Encoder
+vision_config: 'configs/config_swinB_224x224.json'
+patch_size: 32
+image_res: 224
+h: 224
+w: 224
+
+
+## Text Encoder
+text_config: 'encoder_configs/config_bert.json'
+text_encoder: 'data/bert-base-uncased'
+
+
+## Training
+load_pretrained: False
+load_params: True
+
+lr_2: False
+init_cross: True
+
+embed_dim: 2048
+itc_dop: 0.5
+LabelSmooth: 0
+temp: 0.07
+
+max_tokens: 56
+max_words: 56
+icfg_rstp: False
+eda: False
+erasing_p: 0.6
+
+## mlm loss
+mask_prob: 0.25
+max_masks: 10
+skipgram_prb: 0.2
+skipgram_size: 3
+mask_whole_word: True
+
+batch_size_train: 40
+
+
+## test
+batch_size_test: 40
+batch_size_test_text: 200
+k_test: 128
+
+
+## Other Settings
+optimizer: {opt: adamW, lr: 5e-5, weight_decay: 0.01, lr_mult: 2, lr_x: 2}
+schedular: {sched: linear, lr: 5e-5, epochs: 32, num_warmup_steps: 2600}
+
+
+
+project: 'sda_swin224_fp16_gpu4_norm_pad10_crop_dr0.1_dpr0.2_lr_5e-5_2048_bs40'
