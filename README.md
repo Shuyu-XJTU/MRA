@@ -6,8 +6,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/minimizing-the-pretraining-gap-domain-aligned/text-based-person-retrieval-on-rstpreid-1)](https://paperswithcode.com/sota/text-based-person-retrieval-on-rstpreid-1?p=minimizing-the-pretraining-gap-domain-aligned)
 
 
-**[Minimizing the Pretraining Gap: Domain-aligned Text-Based Person Retrieval](https://arxiv.org/abs/2507.10195)
-
+**[Minimizing the Pretraining Gap: Domain-aligned Text-Based Person Retrieval](https://arxiv.org/abs/2507.10195).
 Shuyu Yang, Yaxiong Wang, Yongrui Li, Li Zhu, Zhedong Zheng. arXiv 2025.**
 
 
