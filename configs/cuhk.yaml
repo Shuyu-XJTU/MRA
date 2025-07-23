@@ -7,7 +7,7 @@ region: 0
 
 
 ## Vision Encoder
-vision_config: 'encoder_configs/config_swinB_384x256.json'
+vision_config: 'configs/config_swinB_384x256.json'
 window_size: 8
 patch_size: 32
 image_res: 384
