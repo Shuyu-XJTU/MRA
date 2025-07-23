@@ -25,7 +25,7 @@ Our work tackles **text-based person retrieval**.
 To bridge the significant **domain gap** between **synthetic pretraining data** 
 and **real-world target datasets** (e.g., CUHK-PEDES), we propose a unified dual-level domain adaptation framework:
 
-<div align="center"><img src="assets/dataset.jpg" width="900"></div>
+<div align="center"><img src="assets/dataset.jpg" width="600"></div>
 
 - **Image-Level Adaptation: Domain-aware Diffusion (DaD).**
 DaD migrates the distribution of images from the pretraining dataset domain to the target real-world dataset domain.
@@ -74,7 +74,7 @@ Annotation format:
 ## Models and Weights
 This is an overview of the proposed Multi-granularity Relation Alignment (MRA) framework.
 
-<div align="center"><img src="assets/framework.jpg" width="600"></div>
+<div align="center"><img src="assets/framework.jpg" width="900"></div>
 
 The pretrained and fine-tuned checkpoints have been released at the `checkpoint` folder in
 [Google Drive](https://drive.google.com/drive/folders/1D8g5t8JlmdaA_lhEJkZWiFR5aA0WWHnS?usp=sharing) 
