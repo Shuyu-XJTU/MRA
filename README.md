@@ -25,7 +25,7 @@ Our work tackles **text-based person retrieval**.
 To bridge the significant **domain gap** between **synthetic pretraining data** 
 and **real-world target datasets** (e.g., CUHK-PEDES), we propose a unified dual-level domain adaptation framework:
 
-<div align="center"><img src="assets/dataset.jpg" width="600"></div>
+<div align="center"><img src="assets/dataset.jpg" width="900"></div>
 
 - **Image-Level Adaptation: Domain-aware Diffusion (DaD).**
 DaD migrates the distribution of images from the pretraining dataset domain to the target real-world dataset domain.
@@ -44,7 +44,7 @@ To migrate the domain gap between the synthetic and real-world domain, we fine-t
 As shown in the following figure, we deploy DaD for accomplishing image-level domain adaptation, followed by data filtering (about **10.63%** images are filtered). 
 Then, we construct a synthetic pedestrian image-text pair dataset, SDA, with **region annotations** using off-the-shelf tools. 
 
-<div align="center"><img src="assets/pipeline.jpg" width="600"></div>
+<div align="center"><img src="assets/pipeline.jpg" width="900"></div>
 
 
 ## SDA
