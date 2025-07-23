@@ -1,7 +1,9 @@
 # MRA: Multi-granularity Relation Alignment framework for text-based person retrieval pretraining.
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/minimizing-the-pretraining-gap-domain-aligned/nlp-based-person-retrival-on-cuhk-pedes)](https://paperswithcode.com/sota/nlp-based-person-retrival-on-cuhk-pedes?p=minimizing-the-pretraining-gap-domain-aligned)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/minimizing-the-pretraining-gap-domain-aligned/text-based-person-retrieval-on-icfg-pedes)](https://paperswithcode.com/sota/text-based-person-retrieval-on-icfg-pedes?p=minimizing-the-pretraining-gap-domain-aligned)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/minimizing-the-pretraining-gap-domain-aligned/text-based-person-retrieval-on-rstpreid-1)](https://paperswithcode.com/sota/text-based-person-retrieval-on-rstpreid-1?p=minimizing-the-pretraining-gap-domain-aligned)
 
 **[Minimizing the Pretraining Gap: Domain-aligned Text-Based Person Retrieval](https://arxiv.org/abs/2507.10195) 
