@@ -26,7 +26,7 @@ w: 224
 
 
 ## Text Encoder
-text_config: 'encoder_configs/config_bert.json'
+text_config: 'configs/config_bert.json'
 text_encoder: 'data/bert-base-uncased'
 
 
